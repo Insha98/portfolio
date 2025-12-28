@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // ======== 2. Typing Animation ========
     const typingText = document.querySelector(".typing-text");
-    const roles = ["Front-End Developer", "Cybersecurity Enthusiast", "B.Tech Student"];
+    const roles = ["Front-End Developer", "Cyber Security & Networking Enthusiast", "B.Tech Student"];
     let roleIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
@@ -101,4 +101,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }, { threshold: 0.15 }); // Triggers when 15% of the element is visible
 
     hiddenElements.forEach((el) => scrollObserver.observe(el));
+
 });
